@@ -1,55 +1,7 @@
 1. Membuat class Person :
 
-public class Person {
-    private String Nama, JenisKelamin;
-    private int Umur;
-
-    public void setNama(String Nama){ 
-        this.Nama = Nama;
-    }
-
-    public void setJenisKelamin(String JenisKelamin) {
-        this.JenisKelamin = JenisKelamin;
-    }
-
-    public void setUmur(int Umur) {
-        this.Umur = Umur;
-    }
-    
-    public String getNama() {
-        return this.Nama;
-    }
-
-    public String getJenisKelamin() {
-        return this.JenisKelamin;
-    }
-
-    public int getUmur() {
-        return this.Umur;
-    }
-}
+![image](https://user-images.githubusercontent.com/92707545/197341907-feb6efd9-03d6-4ac9-a563-af28617b1c15.png)
 
 2. Membuat class panggil : 
 
-public class panggil {
-    public static void main(String[] args) {
-        Person Anton = new Person();
-
-        Anton.setNama ("Anton");
-        Anton.setJenisKelamin("Laki-Laki");
-        Anton.setUmur (18);
-        System.out.println("Nama : " + Anton.getNama());
-        System.out.println("Gender : " + Anton.getJenisKelamin());
-        System.out.println("Nama : " + Anton.getUmur());
-    
-        Person Riko = new Person();
-
-        Riko.setNama ("Riko");
-        Riko.setJenisKelamin ("Laki-Laki");
-        Riko.setUmur (19);
-        System.out.println("Nama : " + Riko.getNama());
-        System.out.println("Gender : " + Riko.getJenisKelamin());
-        System.out.println("Nama : " + Riko.getUmur());
-    }
-}# Praktikum2
-# Praktikum2
+![image](https://user-images.githubusercontent.com/92707545/197341949-2c143a04-67ab-4b54-bee2-fb9692f342aa.png)
